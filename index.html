@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио студента</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="container">
+        <h2>Моё Портфолио</h2>
+
+        <ul class="menu">
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="container">
+        <h1>Айчурек</h1>
+        <p>Студент-программист и будущий веб-разработчик</p>
+        <a href="#contact" class="btn">Связаться</a>
+    </div>
+</section>
+
+<section id="about" class="container">
+    <h2 class="title">Обо мне</h2>
+
+    <article>
+        <p>
+            Я студент колледжа по специальности информационные технологии.
+            Изучаю HTML, CSS, Python и базы данных.
+            Люблю создавать программы и веб-сайты.
+        </p>
+    </article>
+</section>
+
+<section id="skills" class="container">
+    <h2 class="title">Навыки</h2>
+
+    <div class="skills">
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">Python</div>
+        <div class="skill">SQL</div>
+    </div>
+</section>
+
+<section id="projects" class="container">
+    <h2 class="title">Проекты</h2>
+
+    <div class="projects">
+
+        <article class="card">
+            <h3>База данных магазина</h3>
+            <p>Проектирование базы данных в MySQL.</p>
+        </article>
+
+        <article class="card">
+            <h3>Игра Breakout</h3>
+            <p>Разработка игры на Python.</p>
+        </article>
+
+        <article class="card">
+            <h3>Сайт-портфолио</h3>
+            <p>Создание адаптивного сайта на HTML и CSS.</p>
+        </article>
+
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2 class="title">Обратная связь</h2>
+
+    <form>
+
+        <input
+            type="text"
+            placeholder="Ваше имя"
+            required
+        >
+
+        <input
+            type="email"
+            placeholder="Ваш Email"
+            required
+        >
+
+        <textarea
+            placeholder="Ваше сообщение"
+            required
+        ></textarea>
+
+        <button type="submit">
+            Отправить
+        </button>
+
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Портфолио студента</p>
+</footer>
+
+</body>
+</html>
